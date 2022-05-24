@@ -7,6 +7,8 @@ We aim to create a psuedo-clone of LinkedIn where the site is less dedicated tow
 
 The main page will contain job postings, job fairs, etc., created by users visible to those inside there network and a few steps out (That is connections of connections). This could be extended to a basic user profile page with their connections, as well as, their postings in some given order. 
 
+The sites has been configured to use Postgres and will be using React and Bootstrap. 
+
 
 
 
