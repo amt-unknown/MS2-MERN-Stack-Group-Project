@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* general linkedin css styling can access it on linkedin devtools*/
+
+.WebContainer{
+  width:100%;
+  min-width:1000px;
+  height:auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  width: auto;
+  min-height: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+/* using root to */
+:root, 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e1f4fc;
+  box-sizing: border-box;
+
+}
+
+div,
+h1,
+h2,
+h3,
+header,
+img,
+li,
+ul,
+nav,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
 }
