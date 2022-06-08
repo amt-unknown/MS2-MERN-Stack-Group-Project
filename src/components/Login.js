@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-const Login = (props) => {
+
+export const Login = (props) => {
     return (
         <Container>
             <Nav>
@@ -19,12 +20,7 @@ const Login = (props) => {
                     <h1> Where finding you a job is our priority!</h1>
                     <img src="/images/background.jpg" alt="" />
                 </Hero>
-                <Form>
-                    <Google>
-                        <img src="/images/google.svg" alt="" />
-                        Sign in with Google
-                    </Google>
-                </Form>
+
             </Section>
         </Container>
     )
@@ -137,7 +133,7 @@ const Hero = styled.div`
         border-radius: 500px;
         right: -1px;
         position: absolute;
-        bottom: 100px;
+        bottom: -120px;
         align-items: center;
         @media (max-width: 768px) {
             top: 230px;
@@ -146,32 +142,4 @@ const Hero = styled.div`
             height: initial;
         }
     }
-`
-
-const Form = styled.div`
-    margin-top: 800px;
-    width: 400px;
-    @media (max-width: 768px) {
-        margin-top: 20px;
-    }
 `;
-
-const Google = styled.button`
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    border-radius: 25px;
-    vertical-align: middle;
-    z-index: 0;
-    transition-duration: 200ms;
-    color: #0E87EA;
-    &:hover{
-        background-color: rgba(207,207,207,0.25);
-        color: rgba(0,0,0,0.75);
-    }
-`;
-
-export default Login;
